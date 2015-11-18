@@ -26,3 +26,4 @@ BellSound=no
 ConfirmExit=no
 Locale=ko_KR
 Charset=UTF-8
+ZoomShortcuts=no
