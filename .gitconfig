@@ -1,6 +1,6 @@
 [user]
-	name = Hyeon Kim
-	email = simnalamburt@gmail.com
+	name = Eu Ka On
+	email = wlxyzlw@bacchus.snucse.org
 [core]
 	editor = vim
 	excludesfile = ~/.gitexclude
@@ -12,11 +12,7 @@
 [credential]
 	helper = cache --timeout=3600
 [credential "https://github.com"]
-	username = simnalamburt
-[credential "http://git.hyeon.me"]
-	username = simnalamburt
-[credential "http://git.upnl.org"]
-	username = simnalamburt
+	username = wlxyzlw
 [filter "media"]
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
