@@ -62,8 +62,8 @@ Arch Linux
     grub-mkconfig -o /boot/grub/grub.cfg
 
     # New user
-    useradd -m -G wheel -s /bin/bash simnalamburt
-    passwd simnalamburt
+    useradd -m -G wheel -s /bin/bash wlxyzlw
+    passwd wlxyzlw
     passwd root -dl
     pacman -S sudo
     EDITOR=nano visudo # 특정 라인 주석해제
@@ -87,7 +87,7 @@ Arch Linux
     grub-mkconfig -o /boot/grub/grub.cfg
     ```
 
-1.  Clone [dotfiles](https://github.com/simnalamburt/dotfiles), symlink those to `/root`
+1.  Clone [dotfiles](https://github.com/wlxyzlw/.dotfiles), symlink those to `/root`
 1.  [Configure `ssh`](https://wiki.archlinux.org/index.php/Secure_Shell)
 
     ```sh
@@ -143,7 +143,7 @@ MSYS2
     1. Replace `/usr/bin/bash` into `/usr/bin/zsh`.
 
 1.  Open `/etc/profile`, Add "SHELL=`which zsh`" line below "PS1='(%n@%m)[%h] %~ %% '" line.
-1.  Clone [dotfiles](https://github.com/simnalamburt/dotfiles).
+1.  Clone [dotfiles](https://github.com/wlxyzlw/.dotfiles).
 1.  Invoke zgen, and fix symlinks of the plugins manually.
 
 [SourceForge]: http://sourceforge.net/projects/msys2/files/REPOS/MSYS2/x86_64
