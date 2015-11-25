@@ -5,7 +5,7 @@ Requires `git` and `zsh`
 
 ```bash
 cd ~
-git clone https://github.com/simnalamburt/.dotfiles.git --depth=1
+git clone https://github.com/wlxyzlw/.dotfiles.git --depth=1
 
 # zsh
 git clone https://github.com/tarjoilija/zgen.git .zgen/zgen --depth=1
